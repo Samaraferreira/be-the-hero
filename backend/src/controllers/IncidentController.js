@@ -46,6 +46,10 @@ module.exports = {
       .select("ong_id")
       .first();
     
+    if (!incidents) {
+      return res.status(404).json({ error: 'not found.' });
+    }
+    
     if (incidents.ong_id !== ong_id) {
       return res.status(401).json({ error: 'Operation not permitted.' });
     }

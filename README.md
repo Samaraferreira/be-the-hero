@@ -2,11 +2,11 @@
 Projeto da Semana Omnistack 11.0 🚀
 
 ##### Frontend web
-![login] (/screenshot/login.png)
+![login](/screenshot/login.png)
 
-![register] (/screenshot/register.png)
+![register](/screenshot/register.png)
 
-![dashboard] (/screenshot/dashboard.png)
+![dashboard](/screenshot/dashboard.png)
 
 ##### Mobile
 

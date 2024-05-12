@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: be-the-hero
+  annotations:
+    github.com/project-slug: Samaraferreira/be-the-hero
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
